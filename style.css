@@ -1,0 +1,29 @@
+.progress-container {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-circle {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.progress-bar {
+  fill: transparent;
+  stroke: #3498db;
+  stroke-width: 10;
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
+  transition: stroke-dashoffset 1s linear;
+}
+
+.timer {
+  position: absolute;
+  font-size: 2em;
+  color: #3498db;
+}
